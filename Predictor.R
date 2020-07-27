@@ -54,6 +54,7 @@ data1 <- read.csv("Prediction Dataset USA.csv")
 tsdata1 <- ts(data1$Life.Expectancy.from.Birth..Years.,frequency = 1,start = c(1950,1))
 plot(tsdata1)
 autoarimal1<-auto.arima(tsdata1)
+
 forecast2<-forecast(autoarimal1,h=20 )
 forecast2
 plot(forecast2)
