@@ -1,6 +1,6 @@
 ######################################################################################
-# MINI PROJECT 2020 (3rd Year: Usha Mittal Institute Of Technology)
-# Team Members : Janhavi Choudhari, Aparna Naik, Vedanti Pawar
+# PROJECT 2020 (4th Year: Usha Mittal Institute Of Technology)
+# Team Members : Aparna Naik, Vedanti Pawar, Janhavi Choudhari,
 # Project Name : Sentiment Analysis Using Text Mining On the Health Index Of India
 # Project Aim  : Comparison of life expectancies of India and the USA
 # Date : 12/03/2020     
@@ -25,7 +25,7 @@ autoarimal<-auto.arima(tsdata)
 ## Forecast is a function which has parameters autoarimal which contains the data of the mean 
 ## and the variance of the time series data. Here h=20 means that we want to predict/forecast 
 ## the values of the life expectancy for the next 20 years.
-forecast1<-forecast(autoarimal,h=20 )
+forecast1<-forecast(autoarimal,h=20)
 forecast1
 
 ## Here we plot the actual graph, final output which represents the output for the next 20 years
