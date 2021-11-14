@@ -1,6 +1,6 @@
 ######################################################################################
 # PROJECT 2020 (4th Year: Usha Mittal Institute Of Technology)
-# Team Members : Aparna Naik, Vedanti Pawar, Janhavi Choudhari,
+# Team Members : Aparna Naik
 # Project Name : Sentiment Analysis Using Text Mining On the Health Index Of India
 # Project Aim  : Comparison of life expectancies of India and the USA
 # Date : 12/03/2020     
